@@ -1,5 +1,6 @@
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2748706045188607"
-     crossorigin="anonymous"></script><?php
+     crossorigin="anonymous"></script>
+<?php
 
 use Illuminate\Contracts\Http\Kernel;
 use Illuminate\Http\Request;
